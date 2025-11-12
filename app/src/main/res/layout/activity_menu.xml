@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/subtle_neon_bg"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/Secret_Files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Secret Files"
+        android:textColor="@color/dark_blue_text"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slamBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slam Book"
+        android:textColor="@color/dark_blue_text"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/dark_blue_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCreate"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/neon_button_bg"
+        android:shadowColor="#90E0EF"
+        android:elevation="8dp"
+        android:text="CREATE"
+        android:textColor="@android:color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnView"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/neon_button_bg"
+        android:shadowColor="#90E0EF"
+        android:elevation="8dp"
+        android:text="LIST"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
